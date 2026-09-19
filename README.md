@@ -1,16 +1,21 @@
 KISHORE A(25015550)
-1. Conditional Statements in Python: Even or Odd Checker
-🎯 Aim
+## 1. Conditional Statements in Python: Even or Odd Checker
+## Aim
 To write a Python program to check whether the given number is even or odd using if...else statements.
 
-🧠 Algorithm
-Get an input from the user.
-Convert the input to an integer and store it in a variable a.
-Use the modulo operator % to check if a % 2 == 0.
-If true, print "EVEN".
-Else, print "ODD".
-End the program.
-🧾 Program
+## Algorithm
+1.Get an input from the user.
+
+2.Convert the input to an integer and store it in a variable a.
+
+3.Use the modulo operator % to check if a % 2 == 0.
+
+4.If true, print "EVEN".
+
+5.Else, print "ODD".
+
+6.End the program.
+## Program
 ```
 a=int(input())
 if a%2==0:
@@ -18,27 +23,35 @@ if a%2==0:
 else:
     print("ODD")
 ```
-Output
+## Output
 <img width="237" height="177" alt="image" src="https://github.com/user-attachments/assets/bf10c1fb-1854-4d9a-a950-5e8482f3b53c" />
 <img width="276" height="173" alt="image" src="https://github.com/user-attachments/assets/9c5c75ae-155f-442b-a58c-ef65d7b6d3fb" />
 
-Result
+## Result
 Successfully wrote a Python program to check whether the given number is even or odd using if...else statements.
 
-2. Datatypes-Boolean Expression Evaluation in Python
-🎯 Aim
+## 2. Datatypes-Boolean Expression Evaluation in Python
+## Aim
 To write a Python program that evaluates and prints the results of boolean and arithmetic expressions involving True and False.
 
-🧠 Algorithm
-Set variable a to the result of the expression 0 == True.
-Set variable b to the result of the expression False == False.
-Set variable c to the result of the expression True + True.
-Set variable d to the result of the expression False + 9.
-Print the value of a with the label "a is".
-Print the value of b with the label "b is".
-Print the value of c with the label "c:".
-Print the value of d with the label "d:".
-💻 Program
+## Algorithm
+
+1.Set variable a to the result of the expression 0 == True.
+
+2.Set variable b to the result of the expression False == False.
+
+3.Set variable c to the result of the expression True + True.
+
+4.Set variable d to the result of the expression False + 9.
+
+5.Print the value of a with the label "a is".
+
+6.Print the value of b with the label "b is".
+
+7.Print the value of c with the label "c:".
+
+8.Print the value of d with the label "d:".
+## Program
 ```
 a=0==True
 b=False==False 
@@ -49,44 +62,51 @@ print("b is",b)
 print("c:",c)
 print("d:",d)
 ```
-Output
+## Output
 <img width="337" height="230" alt="image" src="https://github.com/user-attachments/assets/c5493913-29ca-4a1c-980c-1a9e06a2edb7" />
 
-Result
+## Result
 Successfully wrote a Python program that evaluates and prints the results of boolean and arithmetic expressions involving True and False.
 
-3. Datatypes-Character Literal in Python
-🎯 Aim
+## 3. Datatypes-Character Literal in Python
+## Aim
 To write a Python program that prints the characters 'T' and 'a' using character literals.
 
-🧠 Algorithm
-Print the character 'T'.
-Print the character 'a'.
-🧾 Program
+## Algorithm
+
+1.Print the character 'T'.
+
+2.Print the character 'a'.
+## Program
 ```
 x='T'
 y='a'
 print(x)
 print(y)
 ```
-Output
+## Output
 <img width="93" height="147" alt="image" src="https://github.com/user-attachments/assets/0de34c8b-e588-4a02-85dc-fb541d8852e2" />
 
-Result
+## Result
 Successfully wrote a Python program that prints the characters 'T' and 'a' using character literals.
 
-4. Datatypes-Complex Number Creation in Python
-🎯 Aim
+## 4. Datatypes-Complex Number Creation in Python
+## Aim
 To write a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
 
-🧠 Algorithm
-Read an integer input from the user and assign it to the variable a (real part).
-Read another integer input from the user and assign it to the variable b (imaginary part).
-Create a complex number x using the complex(a, b) function.
-Print the complex number x.
-Print the real part of x using x.real.
-Print the imaginary part of x using x.imag.
-💻 Program
+## Algorithm
+1.Read an integer input from the user and assign it to the variable a (real part).
+
+2.Read another integer input from the user and assign it to the variable b (imaginary part).
+
+3.Create a complex number x using the complex(a, b) function.
+
+4.Print the complex number x.
+
+5.Print the real part of x using x.real.
+
+6.Print the imaginary part of x using x.imag.
+## Program
 ```
 a=int(input())
 b=int(input())
@@ -95,27 +115,29 @@ print(x)
 print(float(x.real))
 print(float(x.imag))
 ```
-Output
+## Output
 <img width="462" height="306" alt="image" src="https://github.com/user-attachments/assets/592b314b-e66a-409f-a801-0a434679a9d7" />
 
-Result
+## Result
 Successfully wrote a Python program that reads two integers, creates a complex number using them, and then prints the complex number along with its real and imaginary parts.
 
-5. Datatypes-Read and Print a String in Python
-🎯 Aim
+## 5. Datatypes-Read and Print a String in Python
+## Aim
 To write a Python program to read a string from the user and then print it.
 
-🧠 Algorithm
-Assign a variable named men_stepped_on_the_moon.
-Use input() to read a string from the user and store it in the variable.
-Print the value stored in the variable.
-🧾 Program
+## Algorithm
+1.Assign a variable named men_stepped_on_the_moon.
+
+2.Use input() to read a string from the user and store it in the variable.
+
+3.Print the value stored in the variable.
+## Program
 ```
 men_stepped_on_the_moon=int(input())
 print(men_stepped_on_the_moon)
 ```
-Output
+## Output
 <img width="347" height="207" alt="image" src="https://github.com/user-attachments/assets/64b03706-7400-46a5-a672-12d627937d9d" />
 
-Result
+## Result
 Successfully wrote a Python program to read a string from the user and then print it.
